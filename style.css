@@ -24,15 +24,15 @@ input {
     width: 100%;
 }
 
-
-
 #logo {
     display: block;
     align-items: center;
     margin-left: 85px;
 }
 
-.container {}
+.container {
+    
+}
 
 #hero {
     display: flex;
