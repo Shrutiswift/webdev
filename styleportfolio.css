@@ -1,0 +1,15 @@
+.nav {
+    float: right;
+    justify-content: flex-end;
+    width: 100px;
+    background-color: black;
+}
+
+.welcome-section {
+    font-style: cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 800px;
+    margin: 0%;
+    height: 100vh;
+}
