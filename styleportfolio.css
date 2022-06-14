@@ -1,15 +1,101 @@
-.nav {
+.navlist {
     float: right;
     justify-content: flex-end;
-    width: 100px;
-    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    margin: 0;
+    font-size: 45px;
+    padding: 0%;
+    width: 100%;
+    background: var(--main-red);
+
+
 }
 
 .welcome-section {
-    font-style: cursive;
     font-size: 60px;
-    text-align: center;
-    margin-top: 800px;
+    margin-top: 700px;
     margin: 0%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    text-align: center;
+    width: 100%;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+
+}
+
+a {
+    color: white;
+    margin: 1%;
+    text-decoration: none;
+    font-family: serif;
+}
+
+h1 {
+    color:  #73264d;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    font-family: cursive;
+}
+
+.image {
+    float: left;
+    width: 40%;
+    padding: 4%;
+    margin-top: 8%;
+    position: relative;
+}
+
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+#profile-link {
+    color: black;
+}
+
+.Last {
+    color: black;
+}
+
+.welcome-section>p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+}
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-bb: rgba(90, 17, 17, 0.663);
+}
+
+body {
+    margin: 0px;
+    font-family: serif;
+    line-height: 1.4;
+}
+.project-section{
+    background: var(--main-bb);
+    padding: 10px;
+    text-align: center;
+}
+.project-section-header{
+    border-bottom: 0.2rem solid var(--main-white);
+    padding: 2%;
+    width: 1300px;
 }
