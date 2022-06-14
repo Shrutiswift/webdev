@@ -32,7 +32,7 @@
 }
 
 a {
-    color: white;
+    color:white;
     margin: 1%;
     text-decoration: none;
     font-family: serif;
@@ -98,4 +98,19 @@ body {
     border-bottom: 0.2rem solid var(--main-white);
     padding: 2%;
     width: 1300px;
+}
+.contact{
+    background-color: #33455a;
+    color: white;
+}
+footer{
+    display: flex;
+    background: #33455a;
+    padding: 38px;
+    justify-content: space-evenly;
+    border-top: 4px solid var(--main-red);
+}
+
+p{
+    color: white;
 }
