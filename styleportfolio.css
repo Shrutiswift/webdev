@@ -134,6 +134,7 @@ p{
     padding: 0.2rem 0.5rem;
     border-radius: 2px;
     font-size: 1.5rem;
+
 }
 @media (max-width: 30.625em) {
     .project-section {
@@ -152,6 +153,9 @@ p{
     margin-bottom: 1%;
 }
 .btn-show-all {
-    font-size: 2rem;
+    font-size: 3rem;
     background: #9e4646c8;
+}
+#contact{
+    text-align: center;
 }
