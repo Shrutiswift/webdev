@@ -136,9 +136,10 @@ p{
     font-size: 1.5rem;
 
 }
-@media (max-width: 30.625em) {
+@media (max-width: 1rem) {
     .project-section {
         padding: 0%;
+        
     }
 }
 .nav{
@@ -147,14 +148,14 @@ p{
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20rem;
+    grid-gap: 15rem;
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: 1%;
+    margin-left: 5%;
 }
 .btn-show-all {
-    font-size: 3rem;
+    font-size: 2.5rem;
     background: #9e4646c8;
+    
 }
 #contact{
     text-align: center;
