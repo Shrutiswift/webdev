@@ -1,3 +1,10 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #b63446;
+    --main-bb: rgba(90, 17, 17, 0.663);
+}
+
+
 .navlist {
     float: right;
     justify-content: flex-end;
@@ -6,7 +13,7 @@
     left: 0;
     z-index: 10;
     display: flex;
-    margin: 0;
+    margin: 0%;
     font-size: 45px;
     padding: 0%;
     width: 100%;
@@ -51,20 +58,27 @@ h2 {
 }
 
 .image {
+    height: calc(100% - 3rem);
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 0%;
+    background-size:100px;
     float: left;
-    width: 40%;
-    padding: 4%;
-    margin-top: 8%;
-    position: relative;
+
 }
 
-.project-title {
-    font-size: 2rem;
-    padding: 2rem 0.5rem;
+.project-tile {
+    font-size: 2.8rem;
+    background-color:#6c07075f;
+    padding: 1rem 0.5rem;    
+    text-align: center;
+    box-sizing: border-box;
+    width: 70%;
 }
 
 #profile-link {
-    color: black;
+    color: white;
 }
 
 .Last {
@@ -76,12 +90,6 @@ h2 {
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
-}
-
-:root {
-    --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-bb: rgba(90, 17, 17, 0.663);
 }
 
 body {
@@ -100,12 +108,13 @@ body {
     width: 1300px;
 }
 .contact{
-    background-color: #33455a;
+    background-color: #9a2f2fae;
     color: white;
+    margin-top: 0%;
 }
 footer{
     display: flex;
-    background: #33455a;
+    background: #2c3239;
     padding: 38px;
     justify-content: space-evenly;
     border-top: 4px solid var(--main-red);
@@ -114,4 +123,35 @@ footer{
 p{
     color: white;
     padding: 0;
+}
+
+.contact-session-header{
+    text-align: center;
+}
+.btn-details{
+    text-align: center;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}
+@media (max-width: 30.625em) {
+    .project-section {
+        padding: 0%;
+    }
+}
+.nav{
+    position: fixed;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+.btn-show-all {
+    font-size: 2rem;
+    background: #9e4646c8;
 }
