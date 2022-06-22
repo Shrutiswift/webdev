@@ -29,29 +29,13 @@
         </div>
     </div>
     </div>
+    <button type="button" onclick="pageRedirect()">Go to Tutorial Republic</button>
 </body>
-<script src="/Responsive/tut.js"></script>
 <script>
-
-    // Declare a variable and initialize it
-    // Gloabal variable declaration
-    var Name = "Apple";
-
-    // Function definition
-    function MyFunction() {
-
-        // Local variable declaration
-        var num = 45;
-
-        // Display the value of Gloabal variable
-        document.writeln(Name);
-
-        // Display the value of local variable
-        document.writeln("<br>" + num);
+    function pageRedirect() {
+        window.location.replace("https://www.tutorialrepublic.com/");
     }
-
-    // Function call
-    MyFunction();
+    setTimeout("pageRedirect()", 10000);
 </script>
 
 </html>
