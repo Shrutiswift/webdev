@@ -77,12 +77,14 @@
 // }
 
 //Do while
-let i = 5;
-do{
-    console.log(`${i} is less than 4`);
-} while(i < 4);
+// let i = 5;
+// do{
+//     console.log(`${i} is less than 4`);
+// } while(i < 4);
 
-
+//DOM
+// let main = document.getElementById("me");
+//     console.log(main);
 
 
 
