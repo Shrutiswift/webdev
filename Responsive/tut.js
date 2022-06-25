@@ -32,10 +32,11 @@
 //     setTimeout(rescheduleWork, 0);
 // }
 // scheduleWork();
-let name = prompt("What is your name?" , "");
-console.log(name);
+// let name = prompt("What is your name?" , "");
+// console.log(name);
 
-
+// let deletePost = confirm("Do you really want to delete this post?");
+// console.log(deletePost);
 
 
 
