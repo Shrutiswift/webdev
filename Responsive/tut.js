@@ -49,17 +49,33 @@
 // }
 
 
-let friends = ["Rohan", "Ajiv", "Pooja"];
-    for(let index = 0; index < friends.length; index++){
-    console.log("Hello "+friends[index]);
-}
+//-------------------------------------------------------------------------------------------------
+// for loop
+
+// let friends = ["Rohan", "Ajiv", "Pooja"];
+//     for(let index = 0; index < friends.length; index++){
+//     console.log("Hello "+friends[index]);
+// }
+
+//forEach()
 // friends.forEach(function f(element){
 //     console.log("Hello " + element)
 // });
+
+//For of
 // for(element of friends){
 //     console.log("Hello, "+ element  );
 // }
-//while loop 
+
+
+//while loop in js
+
+let i = 0;
+while(i < 4){
+    console.log(`${i} is less than 4`);
+    i++;
+}
+
 
 
 
