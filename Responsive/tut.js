@@ -38,9 +38,24 @@
 // let deletePost = confirm("Do you really want to delete this post?");
 // console.log(deletePost);
 
+// let employee =  {
+//     name : "ME",
+//     salary : 100,
+//     channel : "qwer",
+
+// }
+// for(key in employee){
+//     console.log( `The ${key} of employee is ${employee[key]}`);
+// }
 
 
-
+let friends = ["Rohan", "Ajiv", "Pooja"];
+    for(let index = 0; index < friends.length; index++){
+    console.log("Hello "+friends[index]);
+}
+friends.forEach(function f(element){
+    console.log("Hello " + element)
+});
 
 
 
