@@ -32,7 +32,7 @@
 //     setTimeout(rescheduleWork, 0);
 // }
 // scheduleWork();
-let name = prompt("What is your name?" , "Guest");
+let name = prompt("What is your name?" , "");
 console.log(name);
 
 
