@@ -50,12 +50,16 @@
 
 
 let friends = ["Rohan", "Ajiv", "Pooja"];
-    for(let index = 0; index < friends.length; index++){
-    console.log("Hello "+friends[index]);
-}
+//     for(let index = 0; index < friends.length; index++){
+//     console.log("Hello "+friends[index]);
+// }
 friends.forEach(function f(element){
     console.log("Hello " + element)
 });
+// for(element of friends){
+//     console.log("Hello, "+ element  );
+// }
+//while loop 
 
 
 
