@@ -85,7 +85,8 @@
 //DOM
 // let main = document.getElementById("me");
 //     console.log(main);
-
+let main = document.querySelectorAll("#me");
+console.log(main);
 
 
 
