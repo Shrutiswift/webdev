@@ -70,11 +70,17 @@
 
 //while loop in js
 
-let i = 0;
-while(i < 4){
+// let i = 0;
+// while(i < 4){
+//     console.log(`${i} is less than 4`);
+//     i++;
+// }
+
+//Do while
+let i = 5;
+do{
     console.log(`${i} is less than 4`);
-    i++;
-}
+} while(i < 4);
 
 
 
