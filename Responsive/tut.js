@@ -124,10 +124,45 @@
 
 // <----------------------------------------------------------------------------------->
 //Arrow function
+
 // greet = () =>{
 //     console.log("Gm");
 // }
 // greet();
-let greet = (a, b) =>{
-    return a+b;
-};
+
+// let greet = (a, b) => a+b;
+
+// setTimeout(() => {
+//     console.log("Hey");
+// }, 3000);
+
+let obj = {
+    greeting: "Good Morning,",
+    names: ["Happy", "Memo", "Penny"],
+    speak() {
+        this.names.forEach((student) => {
+            console.log(this.greeting + " Hey " + student);
+        });
+        
+    }
+}
+obj.speak();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
