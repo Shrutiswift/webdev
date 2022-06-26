@@ -1,10 +1,10 @@
-// function input(name){
-//     console.log(name + ' is 18yrs old');
+// function input(Shruti){
+//     console.log(Shruti + ' is 18yrs old');
 // }
-// let name = "Shruti";
+// let Shruti = "Shruti";
 // let name2 = "Abhi";
 // let name3 = "Raju";
-// input(name);
+// input(Shruti);
 // input(name2);
 // input(name3);
 // alert("This is a message");
@@ -32,14 +32,14 @@
 //     setTimeout(rescheduleWork, 0);
 // }
 // scheduleWork();
-// let name = prompt("What is your name?" , "");
-// console.log(name);
+// let Shruti = prompt("What is your Shruti?" , "");
+// console.log(Shruti);
 
 // let deletePost = confirm("Do you really want to delete this post?");
 // console.log(deletePost);
 
 // let employee =  {
-//     name : "ME",
+//     Shruti : "ME",
 //     salary : 100,
 //     channel : "qwer",
 
@@ -88,10 +88,12 @@
 // let main = document.querySelectorAll("#me");
 // console.log(main);
 
-function greet(){
-    console.log("Hello");
-}
-setTimeout(greet, 5000);
+// function greet(name){
+//     console.log("Hello " + name);
+// }
+// setTimeout(greet, 2000, "Shruti");
 
-
+setTimeout(() => {
+    console.log("Delayed for 2 sec");
+}, "2000")
 
