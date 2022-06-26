@@ -111,5 +111,20 @@
 // <------------------------------------------------------------------------------------>
 
 // How to set date--------->
-let time = new Date();
-console.log(time);
+// let time = new Date();
+// console.log(time);
+// date = new Date("2022-12-31");
+// console.log(date)
+
+// let newDate = new Date(3020, 3, 4)
+// let date = newDate.getDate();
+// let month = newDate.getMonth();
+// console.log("The date is ", date);
+// console.log("The month is ", month);
+
+// <----------------------------------------------------------------------------------->
+//Arrow function
+greet = () =>{
+    console.log("Gm");
+}
+greet();
