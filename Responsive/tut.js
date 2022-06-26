@@ -93,10 +93,20 @@
 // }
 // setTimeout(greet, 2000, "Shruti");
 
-setTimeout(() => {
-    console.log("Hello Everyone");
-}, 5000)
-setTimeout(() => {
-    console.log("Hey there!")
-}, 2000);
+// setTimeout(() => {
+//     console.log("Hello Everyone");
+// }, 5000)
+// setTimeout(() => {
+//     console.log("Hey there!")
+// }, 2000);
+
+
+// <------------------------------------------------------------------------------------>
+function displayTime(){
+    time = new Date();
+    console.log(time);
+    document.getElementById("time").innerHTML = time;
+}
+setInterval(displayTime, 1000);
+// <------------------------------------------------------------------------------------>
 
