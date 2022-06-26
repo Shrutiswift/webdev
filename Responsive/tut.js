@@ -124,7 +124,10 @@
 
 // <----------------------------------------------------------------------------------->
 //Arrow function
-greet = () =>{
-    console.log("Gm");
-}
-greet();
+// greet = () =>{
+//     console.log("Gm");
+// }
+// greet();
+let greet = (a, b) =>{
+    return a+b;
+};
