@@ -94,6 +94,9 @@
 // setTimeout(greet, 2000, "Shruti");
 
 setTimeout(() => {
-    console.log("Delayed for 2 sec");
-}, "2000")
+    console.log("Hello Everyone");
+}, 5000)
+setTimeout(() => {
+    console.log("Hey there!")
+}, 2000);
 
