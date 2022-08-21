@@ -147,23 +147,23 @@
 //     }
 // }
 // obj.speak();
-const posts = {
-    title: "This is my first page ", 
-}
-function getPosts(){
-    setTimeout(() => {
+// const posts = {
+//     title: "This is my first page ", 
+// }
+// function getPosts(){
+//     setTimeout(() => {
 
-    }, 2000);
-}
-function createPost(post) 
-{
-    setTimeout(() => {
+//     }, 2000);
+// }
+// function createPost(post) 
+// {
+//     setTimeout(() => {
 
-    }, 2000);   
-}
+//     }, 2000);   
+// }
 
-getPosts();
-createPost({title: 'post three'}); 
+// getPosts();
+// createPost({title: 'post three'}); 
 
 
 
