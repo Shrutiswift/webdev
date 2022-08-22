@@ -162,8 +162,8 @@
 //     }, 2000);   
 // }
 
-// getPosts();
-// createPost({title: 'post three'}); 
+getPosts();
+createPost({title: 'post three'}); 
 
 
 
