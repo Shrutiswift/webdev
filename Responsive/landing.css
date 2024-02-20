@@ -11,7 +11,11 @@ body {
 li {
     display: inline;
     list-style: none;
-    padding: 0px 19px;
+    font-size: large;
+    padding: 14px 21px;
+    border-radius: 0.4em;
+    border: 3px groove rgba(210, 17, 17, 40%);
+    background-color: rgba(210, 17, 17, 40%);
 
 }
 
@@ -24,14 +28,19 @@ input {
     width: 100%;
 }
 
+#header {
+    position: fixed;
+    width: 100%;
+}
 #logo {
     display: block;
     align-items: center;
     margin-left: 85px;
+    float: left;
 }
-
-.container {
-    
+#navbar {
+    float: right;
+    margin-top: 23px;
 }
 
 #hero {
@@ -49,34 +58,16 @@ input {
     margin-right: 20%;
 }
 
-#email {
-    padding: 2%;
-    border-radius: 10px;
-    max-width: 100px;
-    display: block;
-}
-
 input[type="email"]::placeholder {
     text-align: center;
 }
 
-#submit {
-
-    height: 40px;
-    font-size: 1em;
-    font-weight: 800;
-    text-transform: uppercase;
-    border: 3px black solid;
-    border-radius: 1px;
-    background: transparent;
-    cursor: pointer;
-}
 
 #video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 
@@ -88,27 +79,23 @@ input[type="email"]::placeholder {
 
 
 .first {
-    background: rgb(194, 204, 214);
-    background-image: url('https://lp2.hm.com/hmgoepprod?set=width[1440],quality[80],options[limit]&source=url[https://www2.hm.com/content/dam/ladies_s05/april_2022/1065d/1065D-3x2-the-summer-collection.jpg]&scale=width[global.width],height[15000],options[global.options]&sink=format[jpg],quality[global.quality]');
-    padding: 100px 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background: rgb(194, 204, 214);
+  background-image: url("https://lp2.hm.com/hmgoepprod?set=width[1440],quality[80],options[limit]&source=url[https://www2.hm.com/content/dam/ladies_s05/april_2022/1065d/1065D-3x2-the-summer-collection.jpg]&scale=width[global.width],height[15000],options[global.options]&sink=format[jpg],quality[global.quality]");
+  padding: 30em 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
 }
-
 
 #header-img {
     width: 100px;
-
 }
-
 
 @media(min-width: 100px) {
     .text {
         font-size: 20px;
     }
 }
-
 
 #Pricing {
     display: flex;
@@ -121,6 +108,7 @@ input[type="email"]::placeholder {
 .pricing_pic {
     border: 1px solid black;
     max-width: 95%;
+
 }
 
 .money {
@@ -128,15 +116,6 @@ input[type="email"]::placeholder {
     text-align: center;
     margin-top: 0.5em;
     font-family: 'Grape Nuts', cursive;
-}
-
-#header {
-    justify-content: space-around;
-    top: 0;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    position: fixed;
 }
 
 .last second {
@@ -150,4 +129,34 @@ input[type="email"]::placeholder {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Permanent Marker';
+}
+
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    max-width: 200px;
+    padding: 2%;
+
+}
+
+#email {
+    padding: 2%;
+    border-radius: 10px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#navbar {
+    float: right;
+    margin-top: 23px;
 }

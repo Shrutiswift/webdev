@@ -60,7 +60,7 @@ h2 {
 .image {
     height: calc(100% - 3rem);
     width: 70%;
-    height: 80%;
+    height: 70%;
     object-fit: cover;
     margin-top: 0%;
     background-size:100px;
@@ -96,6 +96,7 @@ body {
     margin: 0px;
     font-family: serif;
     line-height: 1.4;
+    overflow-x: hidden;
 }
 .project-section{
     background: var(--main-bb);
@@ -103,9 +104,9 @@ body {
     text-align: center;
 }
 .project-section-header{
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.3rem solid var(--main-white);
     padding: 2%;
-    width: 1300px;
+    text-align: center!important;
 }
 .contact{
     background-color: #9a2f2fae;
@@ -148,9 +149,9 @@ p{
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 15rem;
-    width: 100%;
-    margin-left: 5%;
+    grid-gap: 13rem;
+    width:100%;
+    margin: 5%;
 }
 .btn-show-all {
     font-size: 2.5rem;
